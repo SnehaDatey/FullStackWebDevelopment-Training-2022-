@@ -1,0 +1,36 @@
+function addition(){
+    var numbr1 = document.getElementById('text1').value;
+    var numbr2 = document.getElementById('text2').value;
+    var sum = parseInt(numbr1) + parseInt(numbr2);
+    document.getElementById('res').value = sum;
+}
+
+function subtraction(){
+    var numbr1 = document.getElementById('text1').value;
+    var numbr2 = document.getElementById('text2').value;
+    var sum = numbr1 - numbr2;
+    document.getElementById('res').value = sum;
+}
+
+function multiply(){
+    var numbr1 = document.getElementById('text1').value;
+    var numbr2 = document.getElementById('text2').value;
+    var sum = numbr1 * numbr2;
+    document.getElementById('res').value = sum;
+}
+
+function division(){
+    var numbr1 = document.getElementById('text1').value;
+    var numbr2 = document.getElementById('text2').value;
+    var sum = numbr1 / numbr2;
+    document.getElementById('res').value = sum;
+}
+
+function clearAll(){
+    
+    document.getElementById('text1').value= " ";
+    document.getElementById('text2').value = " ";
+    document.getElementById('res').value = " ";
+
+}
+
